@@ -1,0 +1,513 @@
+/* ここから下に記載していく */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#header {
+    z-index: 9999;
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 150px; /* 高さを50pxに指定 */
+    padding: 20px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header_logo {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 40%;
+}
+
+.header_text {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header_ABOUT {
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.header_COURSE {
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.header_NEWS {
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.header_ACCESS {
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.header_CONTACT {
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.mainvisual {
+    position: relative;
+    
+}
+
+.mainvisual_img {
+    width: 100%;
+    padding-top: 150px;
+}
+
+.mainvisual_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 150px;
+}
+
+.mainvisual_text_main {
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.mainvisual_text_sub{
+    font-size: 24px;
+    font-weight: 1;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ABOUT_Etitle {
+    font-size: 24px;
+    color: #ffd61a;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ABOUT_Jtitle {
+    font-size: 18px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ABOUT_text1 {
+    font-size: 16px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ABOUT_text2 {
+    font-size: 16px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ABOUT_text3 {
+    font-size: 16px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ABOUT_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ABOUT_01_img {
+    width: 25%;
+}
+
+.ABOUT_02_img {
+    width: 25%;
+}
+
+.ABOUT_03_img {
+    width: 25%;
+}
+
+.ABOUT_04_img {
+    width: 25%;
+}
+
+
+
+
+
+.COURSE_Etitle {
+    font-size: 24px;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.COURSE_Jtitle {
+    font-size: 16px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.COURSE_01 {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.COURSE_01_img {
+    width: 50%;
+}
+
+.COURSE_01_text {
+    background-color: #fafafa;
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+}
+
+.COURSE_01_text_title {
+    font-size: 24px;
+}
+
+.COURSE_01_text_main {
+    font-size: 16px;
+    
+}
+
+.COURSE_02 {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.COURSE_02_img {
+    width: 50%;
+}
+
+.COURSE_02_text {
+    background-color: #fafafa;
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 50px;
+    
+}
+
+.COURSE_02_text_title {
+    font-size: 24px;
+    
+}
+
+.COURSE_02_text_main {
+    font-size: 16px;
+    
+}
+
+.COURSE_03 {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.COURSE_03_img {
+    width: 50%;
+}
+
+.COURSE_03_text {
+    background-color: #fafafa;
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+}
+
+.COURSE_03_text_title {
+    font-size: 24px;
+}
+
+.COURSE_03_text_main {
+    font-size: 16px;
+}
+
+.NEWS_Etitle {
+    margin-top: 60px;
+    font-size: 24px;
+    color: #ffd61a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NEWS_Jtitle {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NEWS_field {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+.NEWS_card {
+    width: 300px;
+    margin: 0px 15px;
+}
+
+.NEWS_card_text {
+    
+}
+
+.NEWS_button {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    color: black;
+    background-color: #ffd61a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NEWS_button:hover {
+	opacity: 0.6;
+}
+
+.ACCESS {
+    background-color: #fafafa;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ACCESS_Etitle {
+    padding-top: 60px;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ACCESS_Jtitle {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ACCSESS_MAP {
+    display: flex;
+    justify-content: center;
+}
+
+.ACCESS_TABLE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ACCESS_NAME {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .c-form-text {
+    height: 2.4em;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.c-form-text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+} */
+
+.ACCESS_ADDRESS {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ACCESS_TEL {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ACCESS_FAX {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ACCESS_MAIL {
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.CONTACT_Etitle {
+    font-size: 24px;
+    color: black;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CONTACT_Jtitle {
+    font-size: 18px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CONTACT_text1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.CONTACT_text2 {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.CONTACT_TABLE {
+    margin: auto;
+    border: 1px solid black;
+}
+
+
+
+
+.CONTACT_button {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    color: black;
+    background-color: #ffd61a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CONTACT_button:hover {
+	opacity: 0.6;
+}
+
+#footer {
+    color: white;
+    padding: 30px 0px;
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
