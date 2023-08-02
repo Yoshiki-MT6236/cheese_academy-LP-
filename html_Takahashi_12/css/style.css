@@ -1,4 +1,8 @@
 /* ここから下に記載していく */
+body {
+    cursor: url(../img/mouse_pointer_re.png),auto;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -166,27 +170,77 @@ a {
     text-align: center;
 }
 
+/* サンプル動画 */
+.ABOUT_img_slider {
+	width: 450px;
+	height: 250px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 10px solid #ffffff;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
 .ABOUT_img {
-    display: flex;
-    justify-content: space-between;
+	width: 400px;
+	height: 300px;
+	float: left;
+	position: relative;
 }
-
-.ABOUT_01_img {
-    width: 25%;
+.ABOUT_img_wrapper {
+	width: 400%;/* slideの枚数×100% */
+	position: relative;
+	left: 0;
+	animation: slider 20s infinite ease;/* スピード */
 }
-
-.ABOUT_02_img {
-    width: 25%;
+@-webkit-keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	25% {
+	-webkit-transform: translateX(-400px);
+	transform: translateX(-400px);
+	}
+	50% {
+	-webkit-transform: translateX(-800px);
+	transform: translateX(-800px);
+	}
+	75% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
 }
-
-.ABOUT_03_img {
-    width: 25%;
+@keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	25% {
+	-webkit-transform: translateX(-400px);
+	transform: translateX(-400px);
+	}
+	50% {
+	-webkit-transform: translateX(-800px);
+	transform: translateX(-800px);
+	}
+	75% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	100% {
+	-webkit-transform: translateX(-0px);
+	transform: translateX(-0px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0); 
+    }
 }
-
-.ABOUT_04_img {
-    width: 25%;
-}
-
 
 
 
